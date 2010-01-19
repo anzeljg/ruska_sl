@@ -1,0 +1,69 @@
+//
+// Russian (Slovenian keyboard)
+//
+// This is Russian keyboard layout which matches Slovenian keyboard layout
+// which means that when e.g. key "Č" is pressed the letter "Ч" appears etc.
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬───────────┐
+// │ Ь   │ !   │ "   │ #   │ $   │ %   │ &   │ /   │ (   │ )   │ =   │ ?   │ *   │           │
+// │ ь   │ 1   │ 2   │ 3   │ 4   │ 5   │ 6   │ 7   │ 8   │ 9   │ 0   │ '   │ +   │ Backspace │
+// ├─────┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬─────────┤
+// │       │ Ы   │ Ъ   │ Е Ё │ Р   │ Т   │ З   │ У   │ И   │ О   │ П   │ Ш   │ Ю   │         │
+// │ Tab   │ ы   │ ъ   │ е ё │ р   │ т   │ з   │ у   │ и   │ о   │ п   │ ш   │ ю   │   Enter │
+// ├───────┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┐       │
+// │ Caps    │ А   │ С   │ Д   │ Ф   │ Г   │ Х   │ Й   │ К   │ Л   │ Ч   │ Щ   │ Ж   │       │
+// │ Lock    │ а   │ с   │ д   │ ф   │ г   │ х   │ й   │ к   │ л   │ ч   │ щ   │ ж   │       │
+// ├───────┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴─────┴───────┤
+// │       │ >   │ Я   │ Э   │ Ц   │ В   │ Б   │ Н   │ М   │ ;   │ :   │ _   │               │
+// │ Shift │ <   │ я   │ э   │ ц   │ в   │ б   │ н   │ м   │ ,   │ .   │ -   │     Shift     │
+// ├───────┼─────┴─┬───┴───┬─┴─────┴─────┴─────┴─────┴─────┴─────┴───┬─┴─────┼───────┬───────┤
+// │       │       │       │                                         │       │       │       │
+// │ Ctrl  │ Meta  │  Alt  │                  Space                  │ AltGr │ Menu  │ Ctrl  │
+// └───────┴───────┴───────┴─────────────────────────────────────────┴───────┴───────┴───────┘
+//
+// Author: Gregor Anželj <gregor.anzelj@gmail.com>
+//
+
+default  partial alphanumeric_keys
+xkb_symbols "ru_sl" {
+
+    include "rs(latin)"
+
+    name[Group1]="Russia (Slovenian)";
+
+    key <TLDE> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,         any,         any ] };
+    key <AD01> { [     Cyrillic_yeru,     Cyrillic_YERU,         any,         any ] };
+    key <AD02> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN,         any,         any ] };
+    key <AD03> { [       Cyrillic_ie,       Cyrillic_IE, Cyrillic_io, Cyrillic_IO ] };
+    key <AD04> { [       Cyrillic_er,       Cyrillic_ER,         any,         any ] };
+    key <AD05> { [       Cyrillic_te,       Cyrillic_TE,         any,         any ] };
+    key <AD06> { [       Cyrillic_ze,       Cyrillic_ZE,         any,         any ] };
+    key <AD07> { [        Cyrillic_u,        Cyrillic_U,         any,         any ] };
+    key <AD08> { [        Cyrillic_i,        Cyrillic_I,         any,         any ] };
+    key <AD09> { [        Cyrillic_o,        Cyrillic_O,         any,         any ] };
+    key <AD10> { [       Cyrillic_pe,       Cyrillic_PE,         any,         any ] };
+    key <AD11> { [      Cyrillic_sha,      Cyrillic_SHA,         any,         any ] };
+    key <AD12> { [       Cyrillic_yu,       Cyrillic_YU,         any,         any ] };
+
+    key <AC01> { [        Cyrillic_a,        Cyrillic_A,         any,         any ] };
+    key <AC02> { [       Cyrillic_es,       Cyrillic_ES,         any,         any ] };
+    key <AC03> { [       Cyrillic_de,       Cyrillic_DE,         any,         any ] };
+    key <AC04> { [       Cyrillic_ef,       Cyrillic_EF,         any,         any ] };
+    key <AC05> { [      Cyrillic_ghe,      Cyrillic_GHE,         any,         any ] };
+    key <AC06> { [       Cyrillic_ha,       Cyrillic_HA,         any,         any ] };
+    key <AC07> { [        Cyrillic_i,        Cyrillic_I,         any,         any ] };
+    key <AC08> { [       Cyrillic_ka,       Cyrillic_KA,         any,         any ] };
+    key <AC09> { [       Cyrillic_el,       Cyrillic_EL,         any,         any ] };
+    key <AC10> { [      Cyrillic_che,      Cyrillic_CHE,         any,         any ] };
+    key <AC11> { [    Cyrillic_shcha,    Cyrillic_SHCHA,         any,         any ] };
+    key <AC12> { [      Cyrillic_zhe,      Cyrillic_ZHE,         any,         any ] };
+
+    key <AB02> { [       Cyrillic_ya,       Cyrillic_YA,         any,         any ] };
+    key <AB03> { [        Cyrillic_e,        Cyrillic_E,         any,         any ] };
+    key <AB04> { [      Cyrillic_tse,      Cyrillic_TSE,         any,         any ] };
+    key <AB05> { [       Cyrillic_ve,       Cyrillic_VE,         any,         any ] };
+    key <AB06> { [       Cyrillic_be,       Cyrillic_BE,         any,         any ] };
+    key <AB07> { [       Cyrillic_en,       Cyrillic_EN,         any,         any ] };
+    key <AB08> { [       Cyrillic_em,       Cyrillic_EM,         any,         any ] };
+
+};
