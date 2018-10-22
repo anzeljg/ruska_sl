@@ -4248,7 +4248,7 @@
         <name>ru_sl</name>
         
         <shortDescription>ru</shortDescription>
-        <description>Russia (Slovenian)</description>
+        <description>Russian (Slovenian keyboard)</description>
         <languageList>
           <iso639Id>rus</iso639Id>
         </languageList>
