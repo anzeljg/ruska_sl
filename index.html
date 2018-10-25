@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Slovenska (ruska) tipkovnica</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">-->
+
+    <!-- Theme CSS -->
+    <link href="css/alphabet.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-keyboard-o"></i> <span class="light">Slovenska</span> ruska <span class="light">tipkovnica</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Vizitka</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#install">Namestitev</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#download">Prenos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading"><span class="light">ruska_sl</h1>
+                        <p class="intro-text">Fonetična razporeditev ruskih črk na slovenski tipkovnici.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2><span class="light">Slovenska</span> ruska <span class="light">tipkovnica</span></h2>
+                <p>Razporeditev ruskih črk, ki se ujema z razporeditvijo tipk na slovenski tipkovnici, kar pomeni, da če npr. pritisnemo tipko "Č" se pojavi črka "Ч" itd.</p>
+				<p>Trenutna različica razporeda ruskih črk na slovenski tipkovnici poleg ruščine podpira še beloruščino, bolgarščino, makedonščino, srbščino in ukrajinščino.</p>
+                <p>
+<pre id="keylayout">
+
+┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬───────────┐
+│ Ь Ъ │ !   │ "   │ #   │ $   │ %   │ &   │ /   │ (   │ )   │ =   │ ?   │ *   │           │
+│ ь ъ │ 1 ~ │ 2   │ 3   │ 4   │ 5   │ 6   │ 7   │ 8   │ 9   │ 0   │ '   │ +   │ Backspace │
+├─────┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬─────────┤
+│       │ Ы Ї │ Ё   │ Е Є │ Р   │ Т   │ З Ѕ │ У Ў │ И І │ О   │ П   │ Ш   │ Ю Ђ │         │
+│ Tab   │ ы ї │ ё   │ е є │ р   │ т   │ з ѕ │ у ў │ и і │ о   │ п   │ ш   │ ю ђ │   Enter │
+├───────┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┐       │
+│ Caps    │ А   │ С   │ Д Џ │ Ф   │ Г Ґ │ Х   │ Й Ј │ К Ќ │ Л Љ │ Ч   │ Щ Ћ │ Ж   │       │
+│ Lock    │ а   │ с   │ д џ │ ф   │ г ґ │ х   │ й ј │ к ќ │ л љ │ ч   │ щ ћ │ ж   │       │
+├───────┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴─────┴───────┤
+│       │ >   │ Я   │ Э   │ Ц Ѓ │ В   │ Б   │ Н Њ │ М   │ ;   │ :   │ _   │               │
+│ Shift │ <   │ я   │ э   │ ц ѓ │ в @ │ б   │ н њ │ м   │ ,   │ .   │ -   │     Shift     │
+├───────┼─────┴─┬───┴───┬─┴─────┴─────┴─────┴─────┴─────┴─────┴───┬─┴─────┼───────┬───────┤
+│       │       │       │                                         │       │       │       │
+│ Ctrl  │ Meta  │  Alt  │                  Space                  │ AltGr │ Menu  │ Ctrl  │
+└───────┴───────┴───────┴─────────────────────────────────────────┴───────┴───────┴───────┘
+
+
+Q => ы, Shift + Q => Ы, AltGr + Q => ї, AltGr + Shift + Q => Ї
+
+</pre>
+</p>
+                <p>Članek z rešitvijo problema lastne razporeditve črk na tipkovnici je bil predstavljen na konferenci <a href="https://skupnost.sio.si/sio_arhiv/sirikt/www.sirikt.si/slo/sirikt2010/predstavitev.html" target="_blank">SirIKT 2010</a> in objavljen v <a href="https://skupnost.sio.si/sio_arhiv/sirikt/www.sirikt.si/fileadmin/sirikt/fotogalerija/2010/Zbornik/SIRIKT2010_Zbornik_WEB_v2.pdf" target="_blank">zborniku</a>.
+            </div>
+        </div>
+    </section>
+
+    <!-- Install Section -->
+    <section id="install" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Namestitev</h2>
+
+                <h3>Windows</h3>
+				<p>Prenesite namestitveni paket in ga razširite v novo mapo. Nato dvo-kliknite datoteko <tt>setup.exe</tt> in počakajte, da se paket namesti.</p>
+				<p>V opravilni vrstici prikažite vrstico z jeziki, s pomočjo katere boste lahko preklapljali med slovensko in rusko tipkovnico.</p>
+
+				<h3>Mac OS X</h3>
+				<p>Prenesite namestitveni paket in ga razširite v novo mapo. Nato datoteko <tt>ruska_sl.keylayout</tt> prenesite v mapo <tt>/Library/Keyboard/Layouts</tt>.</p>
+				<p>Odprite <tt>System Preferences > Keyboard > Input Sources > + > Others</tt> in preverite, da je nova razporeditev izpisana na seznamu vseh razporeditev.</p>
+
+				<h3>Linux</h3>
+				<p>Prenesite namestitveni paket in ga razširite v novo mapo. Nato datoteko <tt>ru_sl</tt> iz mape <tt>xkb/symbols</tt> prenesite v mapo <tt>/usr/share/X11/xkb/symbols</tt>.</p>
+				<p>V datoteki <tt>/usr/share/X11/xkb/rules/base.lst</tt> morate v razdelek <tt>!&nbsp;layout</tt> dodati novo razporeditev <tt>ru_sl</tt>:
+<pre style="text-align:left">
+  ru_sl           Russian (Slovenian keyboard)
+</pre>
+</p>
+				<p>V datoteki <tt>/usr/share/X11/xkb/rules/base.xml</tt> morate v XML element <tt>&lt;layoutList&gt;</tt> dodati novo razporeditev <tt>ru_sl</tt>:
+<pre style="text-align:left">
+    &lt;layout&gt;
+      &lt;configItem&gt;
+        &lt;name&gt;ru_sl&lt;/name&gt;
+        &lt;shortDescription&gt;ru&lt;/shortDescription&gt;
+        &lt;description&gt;Russian (Slovenian keyboard)&lt;/description&gt;
+        &lt;languageList&gt;
+          &lt;iso639Id&gt;rus&lt;/iso639Id&gt;
+        &lt;/languageList&gt;
+      &lt;/configItem&gt;
+    &lt;/layout&gt;
+</pre>
+</p>
+				<p>Nato morate ponovno zagnati sistem.</p>
+				<p>Odprite <tt>System Preferences > Input Sources > Keyboard > Layouts</tt>, dodajte nov razpored <tt>ru_sl</tt> in obkljukajte možnost <tt>Show layout indicator</tt>.</p>
+				<p>Odprite <tt>System Preferences > Input Sources > Keyboard > Advanced</tt> in pri možnosti <tt>Switching to another layout</tt> izberte kombinacijo tipk, s katerimi boste preklapljali med različnimi razporeditvami tipk.<br />Najbolje se obnese kombinacija <tt>LShift + LCtrl</tt> (levi Shift in levi Ctrl).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Prenos</h2>
+                <p>S klikom na enega izmed spodnjih gumbov si lahko prenesete namestitveni paket za ustrezen operacijski sistem.</p>
+                <p>
+				<ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://github.com/anzeljg/ruska_sl/releases/download/v2.0/ruska_sl_windows.zip" class="btn btn-default btn-lg"><i class="fa fa-windows fa-fw"></i> <span class="network-name">Windows</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/anzeljg/ruska_sl/releases/download/v2.0/ruska_sl_macosx.zip" class="btn btn-default btn-lg"><i class="fa fa-apple fa-fw"></i> <span class="network-name">Mac OSX</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/anzeljg/ruska_sl/releases/download/v2.0/ruska_sl_linux.zip" class="btn btn-default btn-lg"><i class="fa fa-linux fa-fw"></i> <span class="network-name">Linux</span></a>
+                    </li>
+                </ul>
+				</p>
+				<p>Izvorna koda projekta je dostopna na GitHub strani,<br />kjer lahko sporočate tudi vse morebitne težave.</p>
+				<p><a href="https://github.com/anzeljg/ruska_sl" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span></a></p>
+				<p>&nbsp;</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; 2010-2018 Gregor Anželj</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+
+    <!-- Theme JavaScript -->
+    <script src="js/alphabet.js"></script>
+
+</body>
+
+</html>
